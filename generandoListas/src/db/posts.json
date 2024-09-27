@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "content": "Su método de resurrección fue la momificación. Esto puede ser un indicio de por qué los egipcios tenían la costumbre de momificar los cadáveres.",
+    "avatar": "https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/u/ux/osiris-egyptian-gods-history-symbol-display-posters-history-ks2_ver_1.png",
+    "username": "Osiris, dios de los muertos",
+    "likes": 20
+  },
+  {
+    "id": 2,
+    "content": "Era la hermana y esposa de Osiris. Cuando Seth mató a su esposo, ella reunió los pedazos del cuerpo de Osiris y utilizó su poder para hacerlo resucitar. Estaba muy relacionada con la natalidad y el origen de la vida.",
+    "avatar": "https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/Isis--Egyptian-Goddess-Woman-Wings-MPS-KS2.png",
+    "username": "Isis, diosa de la magia, de la luna y de la vida",
+    "likes": 3
+  },
+  {
+    "id": 3,
+    "content": "Seth heredó la parte desértica de Egipto, mientras que Osiris, su hermano, obtuvo la parte fértil. Tuvo envidia y se llenó de furia, matando a su hermano y descuartizándolo. Se le representa como una bestia enigmática y oscura.",
+    "avatar": "https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/Set-God-Of-Chaos----Seth-Egyptian-Gods-History-Symbol-Display-Posters-History-KS2.png",
+    "username": "Seth, dios del caos y la rebelión",
+    "likes": 12
+  },
+  {
+    "id": 4,
+    "content": "Inicialmente, se le conoció como el dios del aire o de las tinieblas, ya que su mayor habilidad era la invisibilidad. Los fenómenos relacionados con el viento y las tempestades se relacionaban también con la ira de Amón. Está relacionado con Tutankamón, puesto que el nombre de este faraón egipcio significa “la viva imagen de Amón”.",
+    "avatar": "https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/Amun----Egyptian-Gods-History-Symbol-Display-Posters-History-KS2.png",
+    "username": "Amón, dios de la creación",
+    "likes": 8
+  }
+]

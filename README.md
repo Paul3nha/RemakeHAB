@@ -14,14 +14,14 @@ Este repositorio alberga algunos **remakes** de varios proyectos que desarrollé
   - Ruta para loguerse y otra para iniciar sesión.
   - Ruta que muestra una lista de raperos extraidos de un json de una API.
 
-### 2. [Proyecto 2: Nombre del Proyecto]
+### 2. Generando Listas
 
-- **Descripción**: Breve descripción del proyecto.
-- **Tecnologías**: React, Vite, API REST.
+- **Descripción**: Breve proyecto en el que, mediante la implementación de dos componentes (una lista y el elemento concreto) se muestran los datos referentes a cuatro Dioses del Antiguo Egipto.
+- **Tecnologías**: React, Vite.
 - **Características**:
-  - Implementación de la autenticación.
-  - Conexión con una API.
-  - Diseño responsive.
+  - Implementación de componentes.
+  - Uso del método map para recorrer una lista.
+  - Uso de un .json para conseguir los datos.
 
 ### 3. [Proyecto 3: Nombre del Proyecto]
 

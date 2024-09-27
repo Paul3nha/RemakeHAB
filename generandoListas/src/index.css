@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header img {
+  width: 60px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+p > img {
+  width: 30px;
+}
+
+article > p:last-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
