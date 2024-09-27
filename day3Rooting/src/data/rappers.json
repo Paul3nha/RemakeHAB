@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Yoon Mi Rae",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Yoon_Mi-rae",
+    "bio_yearsactivestart": "1997",
+    "bio_birthdate": "1981-05-31",
+    "bio_summary": "Natasha Shanta Reid (born May 31, 1981), better known by her Korean name Yoon Mi-rae, is an American-born South Korean rapper and singer. She is currently a member of Korean hip hop trio MFBTY.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/JvI6m0d9SbQ",
+    "location_city": "Fort Hood",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -97.769074,
+      "lat": 31.194718
+    }
+  },
+  {
+    "name": "La Fouine",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/La_Fouine",
+    "bio_yearsactivestart": "2001",
+    "bio_birthdate": "1981-12-25",
+    "bio_summary": "Laouni Mouhid (born December 25, 1981 in Trappes, Yvelines), commonly known by his stage name La Fouine or Fouiny Baby, is a French rapper.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/0QKnYud_FUc",
+    "location_city": "Trappes",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": 1.98633,
+      "lat": 48.776816
+    }
+  },
+  {
+    "name": "Lauryn Hill",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Lauryn_Hill",
+    "bio_yearsactivestart": "1991",
+    "bio_birthdate": "1975-05-26",
+    "bio_summary": "Lauryn Noelle Hill (born May 26, 1975) is an American singer, songwriter, rapper, record producer, and actress. She is best known for being a member of the Fugees.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/T6QKqFPRZSA",
+    "location_city": "South Orange",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -74.265698,
+      "lat": 40.735581
+    }
+  },
+  {
+    "name": "Admiral T",
+    "categories": ["singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Admiral_T",
+    "bio_yearsactivestart": "1993",
+    "bio_birthdate": "1981-03-28",
+    "bio_summary": "Admiral T, whose real name is Christy Campbell, is a French singer of reggae-dancehall from Pointe-à-Pitre, Guadeloupe.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/RivIXsw9wos",
+    "location_city": "Pointe-à-Pitre",
+    "location_neighborhood": "Boissard",
+    "location_coordinates": {
+      "lon": -61.531287,
+      "lat": 16.244404
+    }
+  },
+  {
+    "name": "Jeremih",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Jeremih",
+    "bio_yearsactivestart": "2008",
+    "bio_birthdate": "1987-07-17",
+    "bio_summary": "Jeremy Felton (born July 17, 1987), better known by the stage name Jeremih, is an American singer, songwriter, rapper and record producer from Chicago, Illinois.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/vYMxOzxKYYo",
+    "location_city": "Chicago",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -87.66404,
+      "lat": 41.691289
+    }
+  },
+  {
+    "name": "Yung Berg",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Yung_Berg",
+    "bio_yearsactivestart": "2001",
+    "bio_birthdate": "1985-09-09",
+    "bio_summary": "Christian Ward (born September 9, 1985), better known as his stage names Yung Berg and Hitmaka, is an American rapper and singer.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/QF2KMl5q3jI",
+    "location_city": "Chicago",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -87.703015,
+      "lat": 41.81331
+    }
+  },
+  {
+    "name": "Dej Loaf",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Dej_Loaf",
+    "bio_yearsactivestart": "2011",
+    "bio_birthdate": "1991-04-08",
+    "bio_summary": "Deja Trimble (born April 8, 1991), better known by her stage name Dej Loaf (stylized as DeJ Loaf), is an American rapper, singer and songwriter from Detroit, Michigan.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/3Hn9hLOljJI",
+    "location_city": "Detroit",
+    "location_neighborhood": "Eastside",
+    "location_coordinates": {
+      "lon": -82.980146,
+      "lat": 42.376697
+    }
+  },
+  {
+    "name": "Bryson Tiller",
+    "categories": ["singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Bryson_Tiller",
+    "bio_yearsactivestart": "2011",
+    "bio_birthdate": "1993-01-02",
+    "bio_summary": "Bryson Djuan Tiller (born January 2, 1993), is an American R&B singer, rapper and songwriter. Born in Louisville, Kentucky.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/d7cVLE4SaN0",
+    "location_city": "Louisville",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -85.781185,
+      "lat": 38.173161
+    }
+  },
+  {
+    "name": "Rihanna",
+    "categories": ["singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Rihanna",
+    "bio_yearsactivestart": "2003",
+    "bio_birthdate": "1988-02-20",
+    "bio_summary": "Robyn Rihanna Fenty (born February 20, 1988) is a Barbadian singer, songwriter, and actress. Born in Saint Michael and raised in Bridgetown.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/e82VE8UtW8A",
+    "location_city": "Bridgetown",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -59.592148,
+      "lat": 13.114441
+    }
+  },
+  {
+    "name": "Iamsu!",
+    "categories": ["producer / dj", "rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Iamsu!",
+    "bio_yearsactivestart": "2007",
+    "bio_birthdate": "1989-11-16",
+    "bio_summary": "Sudan Ameer Williams (born November 16, 1989) better known by his stage name Iamsu!, is an American rapper, singer, and producer from Pinole, California.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/clq0utOguMI",
+    "location_city": "Pinole",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -122.286,
+      "lat": 37.991
+    }
+  },
+  {
+    "name": "R. Kelly",
+    "categories": ["singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/R._Kelly",
+    "bio_yearsactivestart": "1989",
+    "bio_birthdate": "1967-01-08",
+    "bio_summary": "Robert Sylvester Kelly (born January 8, 1967), known professionally as R. Kelly, is an American singer, songwriter, record producer, native of Chicago, Illinois, Kelly began performing during the late 1980s and debuted in 1992 with the group Public Announcement.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/y6y_4_b6RS8",
+    "location_city": "Chicago",
+    "location_neighborhood": "Bronzeville",
+    "location_coordinates": {
+      "lon": -87.613577,
+      "lat": 41.824374
+    }
+  },
+  {
+    "name": "M.I.A.",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/M.I.A._(rapper)",
+    "bio_yearsactivestart": "2000",
+    "bio_birthdate": "1975-07-18",
+    "bio_summary": "Mathangi Arulpragasam (born 18 July 1975), better known by her stage name M.I.A., is an English-Tamil rapper, singer-songwriter, record producer.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/2uYs0gJD-LE",
+    "location_city": "Mitcham",
+    "location_neighborhood": "Phipps Bridge Estate",
+    "location_coordinates": {
+      "lon": -0.182573,
+      "lat": 51.405969
+    }
+  },
+  {
+    "name": "André 3000",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Andr%C3%A9_3000",
+    "bio_yearsactivestart": "1991",
+    "bio_birthdate": "1975-05-27",
+    "bio_summary": "André Lauren Benjamin (born May 27, 1975), better known by his stage name André 3000, is an American rapper, singer, songwriter, best known for being part of hip hop duo Outkast alongside fellow rapper Big Boi.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/PWgvGjAhvIw",
+    "location_city": "Atlanta",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -84.375569,
+      "lat": 33.859537
+    }
+  },
+  {
+    "name": "Krizz Kaliko",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Krizz_Kaliko",
+    "bio_yearsactivestart": "2000",
+    "bio_birthdate": "1974-03-07",
+    "bio_summary": "Samuel William Christopher Watson IV (born March 7, 1974) better known by his stage name Krizz Kaliko, is an American rapper, singer, and songwriter. He is a longtime collaborator with fellow hometown native, Tech N9ne.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/25c2Wz70Gbo",
+    "location_city": "Kansas City",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -94.573007,
+      "lat": 39.04787
+    }
+  },
+  {
+    "name": "Doc Gynéco",
+    "categories": ["producer", "rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Doc_Gyn%C3%A9co",
+    "bio_yearsactivestart": null,
+    "bio_birthdate": "1998-11-28",
+    "bio_summary": "Doc Gynéco, real name, Bruno Beausir, is a French hip hop artist of Guadeloupean origin. His music is typically characterized as a ragga/rap style, that has found its fan base in France.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/KnFCNQUTgaU",
+    "location_city": "Paris",
+    "location_neighborhood": "Porte de la Chapelle",
+    "location_coordinates": {
+      "lon": 2.3570033,
+      "lat": 48.8972825
+    }
+  },
+  {
+    "name": "Childish Gambino",
+    "categories": ["producer / dj", "rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Donald_Glover",
+    "bio_yearsactivestart": "2002",
+    "bio_birthdate": "1983-09-25",
+    "bio_summary": "Donald McKinley Glover (born September 25, 1983) is an American actor, writer, producer, comedian, rapper, singer, and songwriter from Stone Mountain, Georgia. As a recording artist, he usually performs under the stage name Childish Gambino.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/tG35R8F2j8k",
+    "location_city": "Stone Mountain",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -84.173765,
+      "lat": 33.805348
+    }
+  },
+  {
+    "name": "Kid Cudi",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Kid_Cudi",
+    "bio_yearsactivestart": "2003",
+    "bio_birthdate": "1984-01-30",
+    "bio_summary": "Scott Ramon Seguro Mescudi (born January 30, 1984), better known by his stage name Kid Cudi, is an American recording artist and actor from Cleveland, Ohio.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/FmvU3urYQgI",
+    "location_city": "Cleveland",
+    "location_neighborhood": "Shaker Heights",
+    "location_coordinates": {
+      "lon": -81.551667,
+      "lat": 41.476389
+    }
+  },
+  {
+    "name": "Akon",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Akon",
+    "bio_yearsactivestart": "2003",
+    "bio_birthdate": "1973-04-16",
+    "bio_summary": "Aliaume Damala Badara Akon Thiam (born April 16, 1973), better known as Akon, is an American singer, rapper, songwriter, businessman, record producer and actor from Jersey City, New Jersey.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/14PgWitIbSk",
+    "location_city": "Jersey City",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -74.071806,
+      "lat": 40.726127
+    }
+  },
+  {
+    "name": "Tory Lanez",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/Tory_Lanez",
+    "bio_yearsactivestart": null,
+    "bio_birthdate": "1992-07-27",
+    "bio_summary": "Daystar Peterson (born July 27, 1992), better known by his stage name Tory Lanez, is a Canadian hip hop recording artist.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/tipfVjCASJg",
+    "location_city": "Toronto",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": -79.378138,
+      "lat": 43.666488
+    }
+  },
+  {
+    "name": "MHD",
+    "categories": ["rapper", "singer"],
+    "bio_url": "https://en.wikipedia.org/wiki/MHD_(rapper)",
+    "bio_yearsactivestart": "2015",
+    "bio_birthdate": "1994-11-28",
+    "bio_summary": "Mohamed Sylla (born 28 November 1994), better known by his stage name MHD is a French rapper from the 19th arrondissement of Paris. His music is the precursor of Afro Trap, a mixture of African music and Trap music.",
+    "bio_yearsactiveend": null,
+    "bio_deathdate": null,
+    "youtube_clipexampleurl": "https://www.youtube.com/embed/zi1D0MKWHU0",
+    "location_city": "Paris",
+    "location_neighborhood": null,
+    "location_coordinates": {
+      "lon": 2.372835,
+      "lat": 48.877353
+    }
+  }
+]

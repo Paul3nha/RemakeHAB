@@ -1,0 +1,8 @@
+#rappers #fav-rappers {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+  border-right: 1px solid #888;
+  width: 200px;
+}
