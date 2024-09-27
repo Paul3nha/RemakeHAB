@@ -1,8 +1,27 @@
-# React + Vite
+# React Router con Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación creada con **React** y **React Router**, usando **Vite** como herramienta de construcción y empaquetado. Es un proyecto básico para demostrar el uso de la navegación en una SPA (Single Page Application).
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **React Router**: Manejo de rutas para crear una SPA y cambiar entre vistas sin recargar la página.
+- **Vite**: Herramienta rápida de desarrollo que ofrece un entorno de desarrollo más rápido y eficiente que alternativas tradicionales como Webpack.
+
+## Requisitos
+
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
+- [Node.js](https://nodejs.org/) (Versión 14 o superior)
+- [npm](https://www.npmjs.com/) o [Yarn](https://yarnpkg.com/)
+
+## Instalación
+
+Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
+
+### Clona este repositorio
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+```
