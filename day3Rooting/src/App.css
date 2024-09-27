@@ -41,6 +41,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 5px 10px;
+  background-color: rgb(24, 24, 17);
 }
 
 header h1 {
@@ -56,4 +57,8 @@ header a {
 
 header a.active {
   text-decoration: underline;
+}
+
+#login h2 {
+  text-align: start;
 }
