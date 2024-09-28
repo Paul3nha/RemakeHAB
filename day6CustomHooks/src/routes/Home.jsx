@@ -1,3 +1,4 @@
+import { ScreenSize } from "../components/ScreenSize.jsx";
 import { Timer } from "../components/Timer.jsx";
 
 export const Home = () => {
@@ -5,6 +6,7 @@ export const Home = () => {
     <div>
       <h1>Welcome to the main page</h1>
       <Timer />
+      <ScreenSize />
     </div>
   );
 };
