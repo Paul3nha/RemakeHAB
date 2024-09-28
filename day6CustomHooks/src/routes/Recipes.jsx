@@ -1,22 +1,22 @@
 import { useState } from "react";
-import { useProducts } from "../hooks/API.js";
+import { useRecipes } from "../hooks/API.js";
 import "../App.css";
 
-export const Shop = () => {
+export const Recipes = () => {
   const [page, setPage] = useState(0);
-  const products = useProducts(page);
+  const recipes = useRecipes(page);
 
   return (
     <div>
-      <h1>Our Shop</h1>
+      <h1>Recipes</h1>
       <ul>
-        {products?.products.map((product) => (
-          <li key={product.id}>
+        {recipes?.recipes.map((recipe) => (
+          <li key={recipe.id}>
             <div
               className="product-image"
-              style={{ backgroundImage: `url("${product.thumbnail}")` }}
+              style={{ backgroundImage: `url("${recipe.image}")` }}
             />
-            {product.title}
+            {recipe.name}
           </li>
         ))}
       </ul>
