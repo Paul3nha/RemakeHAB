@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import { deleteTask } from "../../helpers/deleteTask.js";
+
 export const TaskList = ({ tasks, setTasks }) => {
   const isDone = (id) => {
     setTasks(
@@ -22,6 +24,9 @@ export const TaskList = ({ tasks, setTasks }) => {
             onChange={() => isDone(tsk.id)}
           />
           {tsk.task}
+          <button onClick={() => deleteTask(tasks, setTasks, tsk.id)}>
+            ❌
+          </button>
         </li>
       ))}
     </ul>
