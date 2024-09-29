@@ -13,7 +13,7 @@ function App() {
     <>
       <h1>To Do List ✏️</h1>
       <TaskList tasks={tasks} setTasks={setTasks} />
-      <NewTask task={tasks} setTasks={setTasks} />
+      <NewTask tasks={tasks} setTasks={setTasks} />
       <div></div>
     </>
   );

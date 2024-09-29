@@ -14,7 +14,7 @@ export const NewTask = ({ tasks, setTasks }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (setTaskInput.trim()) {
+    if (taskInput.trim()) {
       addTask(taskInput);
       setTaskInput("");
     }
