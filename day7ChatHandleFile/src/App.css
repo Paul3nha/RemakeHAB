@@ -5,39 +5,81 @@ body,
   overflow: hidden;
 }
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  justify-content: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 20px;
+  background-color: #bec5e9;
+  color: rgb(50, 48, 48);
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#root > header h1 {
+  margin: 0;
+  font-size: 150%;
+}
+
+#root .page {
+  padding: 30px 10px;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-height: calc(100vh - 70px);
+}
+
+#chat {
+  display: flex;
+  max-height: 100vh;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+#chat #images,
+#chat #messages {
+  flex: 1 1 50%;
+  overflow-y: scroll;
+}
+
+#chat img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+#chat .name {
+  color: #88f;
+}
+#chat .name.color-1 {
+  color: rgb(22, 187, 44);
+}
+#chat .name.color-2 {
+  color: rgb(204, 42, 14);
+}
+#chat .name.color-3 {
+  color: rgb(156, 21, 145);
+}
+#chat .name.color-4 {
+  color: rgb(214, 211, 48);
+}
+#chat .name.color-5 {
+  color: rgb(68, 200, 209);
+}
+#chat .name.color-6 {
+  color: rgb(129, 129, 155);
+}
+
+#chat .message {
+  margin-left: 5px;
 }
 
 .card {

@@ -12,7 +12,9 @@ export const Chat = ({ user }) => {
         {data?.map((img) => (
           <img key={img.date} src={img.url} />
         ))}
-        <Link to="/upload">Add an image</Link>
+        <button>
+          <Link to="/upload">Add an image</Link>
+        </button>
       </div>
 
       <div id="messages">

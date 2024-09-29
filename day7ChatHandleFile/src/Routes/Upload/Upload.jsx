@@ -1,5 +1,6 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
+import "./Upload.css";
 
 export const Upload = ({ user }) => {
   const [file, setFile] = useState(null);
