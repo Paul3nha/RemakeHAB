@@ -1,0 +1,29 @@
+.semaforo .luz {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #888;
+  border-radius: 100%; /* para que sea círculo 100% */
+  opacity: 0.3; /* le bajamos la opacidad */
+}
+
+.semaforo {
+  display: flex;
+  justify-content: center;
+}
+
+.semaforo .vermella {
+  background-color: red;
+}
+
+.semaforo .amarela {
+  background-color: yellow;
+}
+
+.semaforo .verde {
+  background-color: green;
+}
+
+/* cuando clickas el semáforo añades la clase active */
+.semaforo .active {
+  opacity: 1;
+}

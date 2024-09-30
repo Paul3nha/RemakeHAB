@@ -18,7 +18,7 @@ export const Spinner = () => {
       <button type="button" onClick={handleSum}>
         ➕
       </button>
-      {num}
+      <button>{num}</button>
       <button type="button" onClick={handleRest}>
         ➖
       </button>

@@ -1,6 +1,8 @@
 import "./App.css";
 import { Contador } from "./components/Contador.jsx";
+import { Semaforo } from "./components/Semaforo.jsx";
 import { Spinner } from "./components/Spinner.jsx";
+import { Toggle } from "./components/Toggle.jsx";
 
 function App() {
   const handleSubmit = (e) => {
@@ -36,9 +38,11 @@ function App() {
           <option>Domingo</option>
         </select>
         <button onClick={handleClick}>Clíckame, non sexas tímida!</button>
+        <Contador />
+        <Spinner />
+        <Toggle />
+        <Semaforo />
       </form>
-      <Contador />
-      <Spinner />
     </>
   );
 }
