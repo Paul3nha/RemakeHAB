@@ -26,7 +26,7 @@ export const Upload = () => {
   };
 
   const handleFile = (e) => {
-    setFile(e.target.file[0]);
+    setFile(e.target.files[0]);
     setPreview(URL.createObjectURL(e.target.files[0]));
   };
 
