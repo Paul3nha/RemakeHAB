@@ -1,0 +1,28 @@
+#home {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+#home #products {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+
+#home #cart {
+  flex: 0 0 200px;
+  border-left: 1px solid #888;
+  padding: 10px;
+}
+
+.product-card {
+  border: 1px solid #444;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#home.light .product-card {
+  background-color: #ccc;
+  color: black;
+}
