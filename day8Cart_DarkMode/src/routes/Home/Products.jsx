@@ -5,6 +5,7 @@ import { useProducts } from "../../hooks/API.js";
 export const Products = () => {
   const [cart, setCart] = useCart();
   const products = useProducts(0);
+  console.log(products);
 
   return (
     <div id="products">
