@@ -1,10 +1,14 @@
-// import { useCart } from "../../CartContext.jsx";
+import { useCart } from "../../CartContext.jsx";
 
 export const Cart = () => {
-  // const [cart, setCart] = useCart();
+  const [cart, setCart] = useCart();
+  // if (!Array.isArray(cart)) {
+  //   // Si 'cart' no es un array, muestra un mensaje o inicialízalo como array vacío
+  //   return <div>El carrito está vacío o es inválido.</div>;
+  // }
   return (
     <div id="cart">
-      {/* <h2>Mi carrito</h2>
+      <h2>Mi carrito</h2>
       <div>
         {cart.map((prod, i) => (
           <div key={i}>
@@ -14,7 +18,7 @@ export const Cart = () => {
             </button>
           </div>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
