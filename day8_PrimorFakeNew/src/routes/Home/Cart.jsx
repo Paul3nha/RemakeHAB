@@ -2,10 +2,6 @@ import { useCart } from "../../CartContext.jsx";
 
 export const Cart = () => {
   const [cart, setCart] = useCart();
-  // if (!Array.isArray(cart)) {
-  //   // Si 'cart' no es un array, muestra un mensaje o inicialízalo como array vacío
-  //   return <div>El carrito está vacío o es inválido.</div>;
-  // }
   return (
     <div id="cart">
       <h2>Mi carrito</h2>

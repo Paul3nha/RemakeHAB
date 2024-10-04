@@ -1,4 +1,5 @@
 import { useDarkMode } from "../../DarkModeContext.jsx";
+import "./Home.css";
 import { Cart } from "./Cart.jsx";
 import { Products } from "./Products.jsx";
 
