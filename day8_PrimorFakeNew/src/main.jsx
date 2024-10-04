@@ -10,7 +10,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <CartProvider>
-        {/* proveedores de contexto que envuelven la aplicación */}
         <DarkModeProvider>
           <App />
         </DarkModeProvider>

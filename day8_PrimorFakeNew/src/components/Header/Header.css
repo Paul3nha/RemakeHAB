@@ -1,0 +1,16 @@
+#head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 20px;
+  background-color: #bec5e9;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#head h1 {
+  font-size: 140%;
+  margin: 0;
+}

@@ -1,3 +1,6 @@
+import { useDarkMode } from "../../DarkModeContext.jsx";
+
 export const DarkMode = () => {
-  return <div>DarkMode</div>;
+  const [isDark, setDark] = useDarkMode();
+  return <span onClick={() => setDark(!isDark)}>{isDark ? "🌙" : "☀️"}</span>;
 };
