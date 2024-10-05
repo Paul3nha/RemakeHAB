@@ -12,6 +12,11 @@ export const SearchForm = ({ setPhotoList }) => {
         throw new Error("Please, enter a valid text");
       }
 
+      const searchParams = new URLSearchParams();
+      searchParams.append("query", query);
+      searchParams.append("locale", "es-ES"); //búsqueda en español
+      searchParams.append("per_page", "80"); //80 imagenes x página
+
       const response = await fetch(
         `https://api.pexels.com/v1/search?${searchParams.toString()}`, //para concatenar textos
         {
