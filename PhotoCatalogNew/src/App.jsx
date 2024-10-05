@@ -3,6 +3,8 @@ import "./App.css";
 import { Layout } from "./routes/Layout.jsx";
 import { SearchPhotos } from "./routes/SearchPhotos.jsx";
 import { useEffect, useState } from "react";
+import { NotFound } from "./routes/NotFound.jsx";
+import { MyPhotos } from "./routes/MyPhotos.jsx";
 
 function App() {
   const storageFav = JSON.parse(localStorage.getItem("fav")) || []; //o coge uno o coge vacío
@@ -38,8 +40,13 @@ function App() {
               />
             }
           />
-          <Route path="my-photos" element={"dfv"} />
-          <Route path="*" element={"dfv"} />
+          <Route
+            path="my-photos"
+            element={
+              <MyPhotos fav={fav} addFav={addFav} removeFav={removeFav} />
+            }
+          />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>
