@@ -8,7 +8,7 @@ export const SearchForm = ({ setPhotoList }) => {
 
       const query = e.target.elements.search.value; //elements accedemos a todo y search al del mismo name
 
-      if (!query || query.lenght < 3) {
+      if (!query || query.length < 3) {
         throw new Error("Please, enter a valid text");
       }
 
