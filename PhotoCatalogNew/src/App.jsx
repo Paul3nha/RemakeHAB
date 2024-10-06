@@ -7,17 +7,16 @@ import { NotFound } from "./routes/NotFound.jsx";
 import { MyPhotos } from "./routes/MyPhotos.jsx";
 
 function App() {
-  const storageFav = JSON.parse(localStorage.getItem("fav")) || []; //o coge uno o coge vacío
+  const storageFav = JSON.parse(localStorage.getItem("fav")) || [];
 
   const [photoList, setPhotoList] = useState([]);
-  const [fav, setFav] = useState(storageFav); //fotos fav guardadas en el navegador
-
+  const [fav, setFav] = useState(storageFav);
   const addFav = (photo) => {
     setFav([...fav, photo]);
   };
 
   const removeFav = (photoRemove) => {
-    setFav(fav.filter((photo) => photo.id !== photoRemove.id)); //comparo elemento actual con el que quiero quitar de fav
+    setFav(fav.filter((photo) => photo.id !== photoRemove.id));
   };
 
   useEffect(() => {
