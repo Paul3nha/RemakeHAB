@@ -6,10 +6,8 @@ export const HearthIcon = ({ fillColor, onClick }) => {
       height="30"
       viewBox="0 0 24 24"
       fill={fillColor}
-      stroke="red"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+      stroke="none"
+      strokeWidth="0"
       style={{ filter: "drop-shadow(2px 2px 2px rgba(0, 0, 0))" }}
       onClick={onClick}
     >
