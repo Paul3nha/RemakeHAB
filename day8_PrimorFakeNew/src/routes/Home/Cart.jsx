@@ -4,7 +4,7 @@ export const Cart = () => {
   const [cart, setCart] = useCart();
   return (
     <div id="cart">
-      <h2>Mi carrito</h2>
+      <h2>My cart</h2>
       <div id="cart-list">
         {cart.map((prod, i) => (
           <div key={i}>
