@@ -9,7 +9,7 @@ export const Products = () => {
   return (
     <div id="products">
       <h2>Our Products</h2>
-      <div>
+      <div id="cuadricula">
         {products?.products.map((prod) => (
           <div key={prod.id} className="product-card">
             <Link to={`/product/${prod.id}`}>

@@ -31,6 +31,12 @@
   width: 95%;
 }
 
+#cuadricula {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* Espacio entre los productos */
+}
+
 img {
   height: 200px;
   width: 200px;
@@ -42,6 +48,13 @@ img {
 }
 
 @media (min-width: 768px) {
+  #home #products {
+    width: 75vw;
+  }
+
+  #home #cart {
+    width: 25vw;
+  }
 }
 
 @media (min-width: 1024px) {
