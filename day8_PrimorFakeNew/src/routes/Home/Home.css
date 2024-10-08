@@ -12,8 +12,8 @@
   padding: 5px;
   width: 35vw;
   box-sizing: border-box;
-  max-height: 100%; /* Ajusta según el tamaño que necesites */
-  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido es demasiado largo */
+  max-height: 100%;
+  overflow-y: auto;
   max-width: 100%;
 }
 
