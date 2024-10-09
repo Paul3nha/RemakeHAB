@@ -15,18 +15,15 @@ section #single-prod {
 .more {
   text-align: center;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #single-prod.light {
   background-color: #ccc;
   color: black;
   height: 100vh;
-}
-
-img.more {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
