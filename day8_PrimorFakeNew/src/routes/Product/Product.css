@@ -1,0 +1,32 @@
+section #single-prod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#single-prod > h2 {
+  font-size: 140%;
+  margin: 20px;
+}
+
+.more {
+  text-align: center;
+  margin: 10px;
+}
+
+#single-prod.light {
+  background-color: #ccc;
+  color: black;
+  height: 100vh;
+}
+
+img.more {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
