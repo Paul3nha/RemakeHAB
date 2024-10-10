@@ -25,3 +25,14 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 ```
+
+## Metiendo Tailwind.css
+
+        1. npm install -D tailwindcss postcss autoprefixer
+        2. npx tailwindcss init -p
+        3. vas a tailwind.config.js --> content: ["./src/**/*.{html,js}"]
+        4. vas a index.css --> pegas las directivas de tailwind (@tailwind base, @tailwind components, @tailwind utilities)
+        5. En tu archivo vite.config.js, asegúrate de que no estás especificando un archivo de salida CSS, ya que Vite se encargará de eso automáticamente.
+        6. Extensiones: PostCSS Language Support y Tailwind CSS IntelliSense
+
+Vite procesará automáticamente el CSS y aplicará los estilos de Tailwind en tu aplicación. Así que no necesitas preocuparte por un archivo output.css, por eso no usamos el comando (npx tailwindcss -i ./src/input.css -o ./src/output.css --watch)
