@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom"; // acceder a los parámetros dinámicos de la URL. En este caso, el parámetro bio_birthdate es extraído de la URL como /rappers/:bio_birthdate.
 import rappers from "../../data/rappers.json";
-import "./RapperSolo.css";
 
 export const RapperSolo = () => {
   const { bio_birthdate } = useParams(); //obtenemos el parámetro bio-birthdate de la url
@@ -16,13 +15,15 @@ export const RapperSolo = () => {
   }
 
   return (
-    <div id="rapper-solo">
-      <h2>{sameRapper.name}</h2>
-      <p>{sameRapper.categories}</p>
-      <p>{sameRapper.bio_url}</p>
-      <p>{sameRapper.bio_birthdate}</p>
-      <p>{sameRapper.youtube_clipexampleurl}</p>
-      <p>{sameRapper.location_city}</p>
+    <div className="flex-col">
+      <h2 className="text-2xl font-bold mt-5">{sameRapper.name}</h2>
+      <ul>
+        <li>{sameRapper.categories}</li>
+        <li>{sameRapper.bio_url}</li>
+        <li>{sameRapper.bio_birthdate}</li>
+        <li>{sameRapper.youtube_clipexampleurl}</li>
+        <li>{sameRapper.location_city}</li>
+      </ul>
     </div>
   );
 };

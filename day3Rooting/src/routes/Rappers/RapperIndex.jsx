@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import rappers from "../../data/rappers.json";
-import "./RapperIndex.css";
 
 function RapperCard({ bio_birthdate, name }) {
   return (
@@ -9,15 +8,15 @@ function RapperCard({ bio_birthdate, name }) {
     </li>
   );
 }
-//Esto hace que cada producto en la lista sea un enlace que lleva a una página detallada del producto.
+//Esto hace que cada rapero en la lista sea un enlace que lleva a una página detallada del mismo.
 
 export const RapperIndex = () => {
   console.log(rappers);
 
   return (
     <div>
-      <h3>Rappers:</h3>
-      <ul id="rappers-map">
+      <h3 className="text-center font-bold">Rappers:</h3>
+      <ul className="text-center">
         {rappers.map((rapper) => (
           <RapperCard
             key={rapper.bio_birthdate}

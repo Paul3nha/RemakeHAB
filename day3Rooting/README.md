@@ -30,7 +30,7 @@ cd tu-repositorio
 
         1. npm install -D tailwindcss postcss autoprefixer
         2. npx tailwindcss init -p
-        3. vas a tailwind.config.js --> content: ["./src/**/*.{html,js}"]
+        3. vas a tailwind.config.js --> content: ["./src/**/*.{js,jsx,ts,tsx}"]
         4. vas a index.css --> pegas las directivas de tailwind (@tailwind base, @tailwind components, @tailwind utilities)
         5. En tu archivo vite.config.js, asegúrate de que no estás especificando un archivo de salida CSS, ya que Vite se encargará de eso automáticamente.
         6. Extensiones: PostCSS Language Support y Tailwind CSS IntelliSense

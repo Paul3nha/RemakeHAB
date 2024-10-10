@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import { Layout } from "./routes/Layout/Layout.jsx";
 import { Home } from "./routes/Home/Home.jsx";
 import { User } from "./routes/User/User.jsx";
@@ -13,7 +12,8 @@ import { RapperSolo } from "./routes/Rappers/RapperSolo.jsx";
 
 function App() {
   return (
-    <>
+    <div className="flex-grow min-h-screen bg-yellow-100 p-4">
+      {/* Usando Tailwind para el fondo y padding */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -29,7 +29,7 @@ function App() {
           <Route path="chat" element={<Chat />} />
         </Route>
       </Routes>
-    </>
+    </div>
   );
 }
 
