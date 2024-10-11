@@ -12,23 +12,25 @@ import { RapperSolo } from "./routes/Rappers/RapperSolo.jsx";
 
 function App() {
   return (
-    <div className="flex-grow min-h-screen bg-yellow-100 p-4">
+    <div className="flex flex-col min-h-screen bg-yellow-100 p-4">
       {/* Usando Tailwind para el fondo y padding */}
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="user" element={<User />}>
-            <Route path="login" element={<Login />} />
-            <Route path="profile" element={<Profile />} />
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="user" element={<User />}>
+              <Route path="login" element={<Login />} />
+              <Route path="profile" element={<Profile />} />
+            </Route>
+            <Route path="rappers" element={<RappersSection />}>
+              <Route index element={<RapperIndex />}></Route>
+              <Route path=":bio_birthdate" element={<RapperSolo />} />
+            </Route>
+            <Route path="contact" element={<ContactUs />} />
+            <Route path="chat" element={<Chat />} />
           </Route>
-          <Route path="rappers" element={<RappersSection />}>
-            <Route index element={<RapperIndex />}></Route>
-            <Route path=":bio_birthdate" element={<RapperSolo />} />
-          </Route>
-          <Route path="contact" element={<ContactUs />} />
-          <Route path="chat" element={<Chat />} />
-        </Route>
-      </Routes>
+        </Routes>
+      </main>
     </div>
   );
 }

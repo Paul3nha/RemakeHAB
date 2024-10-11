@@ -1,11 +1,13 @@
 export const Login = () => {
   return (
-    <div id="login">
-      <h1>Login now 🍳</h1>
-      <form>
-        <input type="text" placeholder="username" />
-        <input type="password" placeholder="password" />
-        <button>Go in</button>
+    <div className="text-center p-4">
+      <h1 className="font-bold">Login now 🍳</h1>
+      <form className="flex flex-col p-4">
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button className="border-dotted border-2 border-sky-500 m-4">
+          Go in
+        </button>
       </form>
     </div>
   );
