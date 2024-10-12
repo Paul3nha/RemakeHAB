@@ -5,7 +5,7 @@ export const Home = () => {
         Welcome to our page homie ❤️
       </h1>
       <img
-        className="text-center justify-center flex-grow"
+        className="mx-auto max-w-full h-auto"
         src="https://i.pinimg.com/564x/73/0d/f0/730df0b5f50210a323e32766e07be713.jpg"
         alt="rappers on their evolution by the time"
       />

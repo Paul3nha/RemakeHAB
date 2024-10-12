@@ -1,10 +1,10 @@
 export const Footer = () => {
   return (
     <footer
-      className=" bg-black
-    text-white
+      className="
     text-center 
-    p-4"
+    p-4
+    "
     >
       This page was created by {import.meta.env.VITE_AUTHOR}
     </footer>

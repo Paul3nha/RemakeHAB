@@ -9,6 +9,7 @@ import { RapperIndex } from "./routes/Rappers/RapperIndex.jsx";
 import { ContactUs } from "./routes/Contact/ContactUs.jsx";
 import { Chat } from "./routes/Chat/Chat.jsx";
 import { RapperSolo } from "./routes/Rappers/RapperSolo.jsx";
+import "./index.css"; /* IMPORTANTE */
 
 function App() {
   return (
