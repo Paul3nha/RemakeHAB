@@ -14,7 +14,7 @@ export const Spinner = () => {
   };
 
   return (
-    <>
+    <div>
       <button type="button" onClick={handleSum}>
         ➕
       </button>
@@ -22,6 +22,6 @@ export const Spinner = () => {
       <button type="button" onClick={handleRest}>
         ➖
       </button>
-    </>
+    </div>
   );
 };

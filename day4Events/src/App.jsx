@@ -1,5 +1,6 @@
 import "./App.css";
 import { Contador } from "./components/Contador.jsx";
+import { Footer } from "./components/Footer.jsx";
 import { Semaforo } from "./components/Semaforo.jsx";
 import { Spinner } from "./components/Spinner.jsx";
 import { Toggle } from "./components/Toggle.jsx";
@@ -43,6 +44,7 @@ function App() {
         <Toggle />
         <Semaforo />
       </form>
+      <Footer />
     </>
   );
 }

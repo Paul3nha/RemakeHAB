@@ -12,3 +12,13 @@ select {
 input {
   text-align: center;
 }
+
+#footer {
+  position: fixed; /* para que se mantenga fijo al fondo de la página */
+  bottom: 0; /* Mantiene el footer en la parte inferior */
+  left: 0;
+  right: 0;
+  background-color: #f2d3d3; /* Cambia el color de fondo según lo desees */
+  padding: 2px; /* Espaciado interno */
+  text-align: center; /* Centrar el texto */
+}
