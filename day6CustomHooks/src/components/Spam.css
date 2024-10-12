@@ -12,7 +12,17 @@
 }
 
 .modal-content {
-  background-color: rgb(9, 114, 114);
-  color: rgb(235, 116, 175);
-  padding: 30px;
+  background-color: #f9e1f4; /* Fondo blanco para el contenido */
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.75rem; /* Tamaño del aspa */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  background-color: rgb(146, 192, 76);
 }
