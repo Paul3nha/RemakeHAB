@@ -38,8 +38,8 @@ export const Login = ({ userinfo, setUserinfo }) => {
   }
 
   return (
-    <div>
-      <h1>Log In</h1>
+    <div className="flex-grow text-start">
+      <h1 className="font-fira text-3xl font-bold p-8 text-center">Log In</h1>
       <form onSubmit={handleSubmit}>
         <label>
           <span>Email:</span>

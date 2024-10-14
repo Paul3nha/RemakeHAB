@@ -43,8 +43,8 @@ export const SignUp = ({ userinfo, setUserinfo }) => {
     return <div>Te has registrado con éxito.</div>;
   }
   return (
-    <div>
-      <h1>Register</h1>
+    <div className="flex-grow text-start">
+      <h1 className="font-fira text-3xl font-bold p-8 text-center">Register</h1>
       <form onSubmit={handleSubmit}>
         <label>
           <span>Name:</span>

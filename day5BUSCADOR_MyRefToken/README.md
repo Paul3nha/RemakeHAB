@@ -13,3 +13,12 @@ Implementa un buscador de productos a partir del hook useRef y el token del usua
         6. Extensiones: PostCSS Language Support y Tailwind CSS IntelliSense.
 
 Vite procesará automáticamente el CSS y aplicará los estilos de Tailwind en tu aplicación. Así que no necesitas preocuparte por un archivo output.css, por eso no usamos el comando (npx tailwindcss -i ./src/input.css -o ./src/output.css --watch)
+
+## Google Font en TailwindCSS
+
+        1. descargas el enlace
+        2. lo importas en index.css
+        3. modificas el tailwind.config.js -->  extend: {
+      fontFamily: {
+        'fira': ['Fira Sans Condensed', 'sans-serif'], // Define la fuente
+      },},

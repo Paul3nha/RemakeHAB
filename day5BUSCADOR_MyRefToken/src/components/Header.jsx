@@ -3,14 +3,16 @@ import PropTypes from "prop-types";
 
 export const Header = ({ userinfo }) => {
   return (
-    <header>
+    <header className="flex place-content-between bg-emerald-200 border rounded-lg p-2">
       <Link to="/">
-        <h1>My Page</h1>
+        <h1 className="font-fira">My Page</h1>
       </Link>
       {userinfo ? (
         <span>Welcome, {userinfo.username}</span>
       ) : (
-        <Link to="/login">Log In</Link>
+        <Link to="/login" className="font-fira">
+          Log In
+        </Link>
       )}
     </header>
   );
