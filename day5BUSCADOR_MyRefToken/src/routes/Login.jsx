@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 export const Login = ({ userinfo, setUserinfo }) => {
   const [username, setUsername] = useState("");
@@ -63,4 +64,9 @@ export const Login = ({ userinfo, setUserinfo }) => {
       </form>
     </div>
   );
+};
+
+Login.propTypes = {
+  userinfo: PropTypes.object, // Puede ser un objeto o null
+  setUserinfo: PropTypes.func.isRequired, // Debe ser una función obligatoriamente
 };
