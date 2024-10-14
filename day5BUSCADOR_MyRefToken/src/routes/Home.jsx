@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export const Home = () => {
   return (
     <div>
-      <h1>First Page</h1>
-      Pages
+      <h1>Welcome to our page</h1>
+      Links
       <ul>
         <li>
           <Link to="/login">Log Yourself</Link>
