@@ -6,6 +6,7 @@ import { Login } from "./routes/Login/Login.jsx";
 import "./index.css"; /* IMPORTANTE */
 import { SignUp } from "./routes/SignUp/SignUp.jsx";
 import { Upload } from "./routes/Upload/Upload.jsx";
+import { Imgur } from "./routes/Imgur/Imgur.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="login" element={<Login />}></Route>
         <Route path="signup" element={<SignUp />}></Route>
         <Route path="upload" element={<Upload />}></Route>
+        <Route path="imgur" element={<Imgur />}></Route>
       </Route>
     </Routes>
   );
