@@ -5,7 +5,7 @@ Implementa un buscador de productos a partir del hook useRef y el token del usua
 
 ## TailwindCSS
 
-        1. npm install -D tailwindcss postcss autoprefixer
+        1. npm i -D tailwindcss postcss autoprefixer
         2. npx tailwindcss init -p
         3. vas a tailwind.config.js --> content: ["./src/**/*.{js,jsx,ts,tsx}"]
         4. vas a index.css --> pegas las directivas de tailwind (@tailwind base, @tailwind components, @tailwind utilities)

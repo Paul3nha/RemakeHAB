@@ -23,3 +23,5 @@ export const Layout = () => {
     </>
   );
 };
+
+/* instalar npm i react-error-boundary */

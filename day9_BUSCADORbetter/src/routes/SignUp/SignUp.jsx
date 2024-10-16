@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { Navigate } from "react-router-dom";
 import { useUser } from "../../UserContext.jsx";
-import { Link, Navigate } from "react-router-dom";
+import { useState } from "react";
 
-export const Login = () => {
-  //creamos un estado por cada dato que queramos mandar en el formulario
+export const SignUp = () => {
   const [user, setUser] = useUser();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -13,7 +12,7 @@ export const Login = () => {
     e.preventDefault();
     setError(null);
 
-    const res = await fetch("https://photochat.anxoso.com/login", {
+    const res = await fetch("https://photochat.anxoso.com/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password }),
@@ -26,13 +25,11 @@ export const Login = () => {
     }
   };
 
-  if (user) {
-    return <Navigate to="/" />;
-  }
+  if (user) return <Navigate to="/" />;
 
   return (
     <div>
-      <h1>Log In:</h1>
+      <h1>Register:</h1>
       <form onSubmit={handleSubmit}>
         <label>
           <span>User:</span>
@@ -52,12 +49,8 @@ export const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
-        <button>Go In</button>
+        <button>Register</button>
         {error && <p>{error}</p>}
-        <div>
-          <p>If you cant log in, you can register your account here</p>
-          <Link to="/signup">Register</Link>
-        </div>
       </form>
     </div>
   );
