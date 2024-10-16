@@ -24,3 +24,8 @@ Vite procesará automáticamente el CSS y aplicará los estilos de Tailwind en t
 - Para usar esto: navigate("/image/" + json.date);
 - Hay que importar esto: import { useNavigate } from "react-router-dom";
 - y poner esto: const navigate = useNavigate();
+
+## useParams()
+
+- para buscar una imagen según id: const { id } = useParams();
+- importamos: import { useParams } from "react-router-dom";
