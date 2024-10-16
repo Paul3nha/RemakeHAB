@@ -18,3 +18,9 @@
         7. Importar tu index.css en el App.jsx
 
 Vite procesará automáticamente el CSS y aplicará los estilos de Tailwind en tu aplicación. Así que no necesitas preocuparte por un archivo output.css, por eso no usamos el comando (npx tailwindcss -i ./src/input.css -o ./src/output.css --watch)
+
+## useNavigate()
+
+- Para usar esto: navigate("/image/" + json.date);
+- Hay que importar esto: import { useNavigate } from "react-router-dom";
+- y poner esto: const navigate = useNavigate();

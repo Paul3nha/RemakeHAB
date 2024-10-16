@@ -5,6 +5,7 @@ import { Home } from "./routes/Home/Home.jsx";
 import { Login } from "./routes/Login/Login.jsx";
 import "./index.css"; /* IMPORTANTE */
 import { SignUp } from "./routes/SignUp/SignUp.jsx";
+import { Upload } from "./routes/Upload/Upload.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />}></Route>
         <Route path="login" element={<Login />}></Route>
         <Route path="signup" element={<SignUp />}></Route>
+        <Route path="upload" element={<Upload />}></Route>
       </Route>
     </Routes>
   );
