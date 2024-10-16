@@ -29,3 +29,7 @@ Vite procesará automáticamente el CSS y aplicará los estilos de Tailwind en t
 
 - para buscar una imagen según id: const { id } = useParams();
 - importamos: import { useParams } from "react-router-dom";
+
+## useSearchParams()
+
+- para para manejar los parámetros de búsqueda o query parameters de una URL: const [query, setQuery] = useSearchParams();

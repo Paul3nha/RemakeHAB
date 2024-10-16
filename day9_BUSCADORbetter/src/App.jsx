@@ -8,6 +8,7 @@ import { SignUp } from "./routes/SignUp/SignUp.jsx";
 import { Upload } from "./routes/Upload/Upload.jsx";
 import { Imgur } from "./routes/Imgur/Imgur.jsx";
 import { Image } from "./routes/Image/Image.jsx";
+import { Rick } from "./Rick/Rick.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="upload" element={<Upload />}></Route>
         <Route path="imgur" element={<Imgur />}></Route>
         <Route path="image/:id" element={<Image />}></Route>
+        <Route path="rick" element={<Rick />}></Route>
       </Route>
     </Routes>
   );
