@@ -6,7 +6,7 @@ export const Layout = () => {
   const [user] = useUser(); //importamos el contexto
   return (
     <>
-      <header>
+      <header className="flex justify-between m-1 bg-yellow-500">
         <Link to="/">
           <h1>My Chat</h1>
         </Link>
