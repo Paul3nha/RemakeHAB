@@ -28,13 +28,17 @@ export const SignUp = () => {
   if (user) return <Navigate to="/" />;
 
   return (
-    <div>
-      <h1>Register:</h1>
-      <form onSubmit={handleSubmit}>
+    <div className="flex flex-col justify-center items-center min-h-screen bg-yellow-300 w-full">
+      <h1 className="text-center m-2 font-bold">Register:</h1>
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md w-full max-w-md mx-auto"
+      >
         <label>
           <span>User:</span>
           <input
             name="username"
+            className="border p-2 rounded w-full"
             value={username}
             type="text"
             onChange={(e) => setUsername(e.target.value)}
@@ -44,13 +48,16 @@ export const SignUp = () => {
           <span>Password:</span>
           <input
             type="password"
+            className="border p-2 rounded w-full"
             value={password}
             name="password"
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
-        <button>Register</button>
-        {error && <p>{error}</p>}
+        <button className="bg-yellow-100 text-black py-2 rounded w-full">
+          Register
+        </button>
+        {error && <p className="text-red-500">{error}</p>}
       </form>
     </div>
   );

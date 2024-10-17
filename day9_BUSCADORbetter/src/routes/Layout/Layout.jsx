@@ -5,7 +5,7 @@ import { ErrorPage } from "./ErrorPage.jsx";
 export const Layout = () => {
   const [user] = useUser(); //importamos el contexto
   return (
-    <>
+    <div>
       <header className="flex justify-between m-1 bg-yellow-500">
         <Link to="/">
           <h1>My Chat</h1>
@@ -20,7 +20,7 @@ export const Layout = () => {
         {/* Componente que captura errores en sus componentes hijos y permite mostrar una IU alternativa (fallback) en caso de error. */}
         <Outlet />
       </ErrorBoundary>
-    </>
+    </div>
   );
 };
 
