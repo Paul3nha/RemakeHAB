@@ -37,7 +37,7 @@ export const Login = () => {
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1 w-full sm:max-w-md md:max-w-lg lg:max-w-lg"
+        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1 w-svw mr-0"
       >
         <label>
           <span>User:</span>

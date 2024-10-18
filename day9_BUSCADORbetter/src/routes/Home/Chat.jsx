@@ -9,7 +9,10 @@ export const Chat = () => {
     <>
       <div>
         {data?.map((img) => (
-          <Link key={img.date} to={`/image/${img.date}`}>
+          <Link
+            key={img.date}
+            to={`/image/${img.date}`}
+          >
             <img src={img.url} />
           </Link>
         ))}

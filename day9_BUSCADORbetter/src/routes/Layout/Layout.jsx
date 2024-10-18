@@ -5,7 +5,7 @@ import { ErrorPage } from "./ErrorPage.jsx";
 export const Layout = () => {
   const [user] = useUser(); //importamos el contexto
   return (
-    <div>
+    <div className="min-h">
       <header className="flex justify-between m-1 bg-yellow-500 ">
         <Link to="/">
           <h1>My Chat</h1>

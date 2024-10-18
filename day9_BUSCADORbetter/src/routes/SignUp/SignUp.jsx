@@ -29,10 +29,10 @@ export const SignUp = () => {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-yellow-300 w-full">
-      <h1 className="text-center m-2 font-bold">Register:</h1>
+      <h1 className="text-center m-2 font-bold">Sign Up:</h1>
       <form
         onSubmit={handleSubmit}
-        className="flex gap-4 bg-white p-6 rounded-lg shadow-md mx-1"
+        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1 w-svw mr-0"
       >
         <label>
           <span>User:</span>
