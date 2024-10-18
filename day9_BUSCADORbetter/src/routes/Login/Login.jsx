@@ -31,11 +31,13 @@ export const Login = () => {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-yellow-300">
-      <h1 className="text-center m-2 font-bold">Log In:</h1>
+    <div className="flex flex-col justify-center items-center min-h-screen bg-yellow-300 p-4 sm:p-8">
+      <h1 className="text-center m-2 font-bold text-lg sm:text-xl lg:text-2xl">
+        Log In:
+      </h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1 w-full"
+        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1 w-full sm:max-w-md md:max-w-lg lg:max-w-lg"
       >
         <label>
           <span>User:</span>
