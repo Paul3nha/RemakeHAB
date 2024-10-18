@@ -35,7 +35,7 @@ export const Login = () => {
       <h1 className="text-center m-2 font-bold">Log In:</h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1"
+        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md mx-1 w-full"
       >
         <label>
           <span>User:</span>
@@ -61,9 +61,14 @@ export const Login = () => {
           Go In
         </button>
         {error && <p className="text-red-500">{error}</p>}
-        <div>
+        <div className="flex flex-col gap-4">
           <p>If you cant log in, you can register your account here</p>
-          <Link to="/signup">Register</Link>
+          <Link
+            to="/signup"
+            className="bg-yellow-100 text-black py-2 px-4 rounded text-center"
+          >
+            Register
+          </Link>
         </div>
       </form>
     </div>

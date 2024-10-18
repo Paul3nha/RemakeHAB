@@ -32,7 +32,7 @@ export const SignUp = () => {
       <h1 className="text-center m-2 font-bold">Register:</h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 bg-white p-6 rounded-lg shadow-md w-full max-w-md mx-auto"
+        className="flex gap-4 bg-white p-6 rounded-lg shadow-md mx-1"
       >
         <label>
           <span>User:</span>
