@@ -5,8 +5,8 @@ import { Link, Navigate } from "react-router-dom";
 export const Login = () => {
   const [user, setUser] = useUser();
   const [username, setUsername] = useState("");
-  const [password, setPassword] = useState();
-  const [error, setError] = useState();
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
