@@ -15,16 +15,46 @@ import { RickCharacter } from "./Rick/RickCharacter.jsx";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />}></Route>
-        <Route path="login" element={<Login />}></Route>
-        <Route path="signup" element={<SignUp />}></Route>
-        <Route path="upload" element={<Upload />}></Route>
-        <Route path="imgur" element={<Imgur />}></Route>
-        <Route path="image/:id" element={<Image />}></Route>
-        <Route path="rick" element={<Rick />}>
-          <Route index element={<RickResults />} />
-          <Route path=":id" element={<RickCharacter />} />
+      <Route
+        path="/"
+        element={<Layout />}
+      >
+        <Route
+          index
+          element={<Home />}
+        ></Route>
+        <Route
+          path="login"
+          element={<Login />}
+        ></Route>
+        <Route
+          path="signup"
+          element={<SignUp />}
+        ></Route>
+        <Route
+          path="upload"
+          element={<Upload />}
+        ></Route>
+        <Route
+          path="imgur"
+          element={<Imgur />}
+        ></Route>
+        <Route
+          path="image/:id"
+          element={<Image />}
+        ></Route>
+        <Route
+          path="rick"
+          element={<Rick />}
+        >
+          <Route
+            index
+            element={<RickResults />}
+          />
+          <Route
+            path=":id"
+            element={<RickCharacter />}
+          />
         </Route>
       </Route>
     </Routes>
