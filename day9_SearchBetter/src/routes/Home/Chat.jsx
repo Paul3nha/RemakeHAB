@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useImages, useMessages } from "../../hooks/API.js";
 
 export const Chat = () => {
   const messages = useMessages(); //fetch para los mensajes
