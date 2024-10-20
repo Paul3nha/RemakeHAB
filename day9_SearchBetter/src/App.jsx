@@ -5,6 +5,7 @@ import { Home } from "./routes/Home/Home.jsx";
 import { Login } from "./routes/Login/Login.jsx";
 import { Signup } from "./routes/Signup/Signup.jsx";
 import { Imgur } from "./routes/Imgur/Imgur.jsx";
+import { Image } from "./routes/Image/Image.jsx";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
         <Route
           path="imgur"
           element={<Imgur />}
+        />
+        <Route
+          path="image/:id"
+          element={<Image />}
         />
       </Route>
     </Routes>

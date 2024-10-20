@@ -1,3 +1,29 @@
+import { Link } from "react-router-dom";
+
 export const Chat = () => {
-  return <div>Chat</div>;
+  const messages = useMessages(); //fetch para los mensajes
+  const images = useImages(); //fetch para las imágenes
+  return (
+    <>
+      <div>
+        {images?.map((img) => (
+          <Link
+            key={img.date}
+            to={`/image/${img.date}`}
+          >
+            <img src={img.url} />
+          </Link>
+        ))}
+      </div>
+      <div>
+        {messages?.map((msg) => (
+          <Link key={msg.date}>
+            <span className={`name color-${msg.name.length}`}>{msg.name}</span>{" "}
+            {/* nombre del usuario */}
+            <span className="message">{msg.message}</span> {/* comentario */}
+          </Link>
+        ))}
+      </div>
+    </>
+  );
 };
