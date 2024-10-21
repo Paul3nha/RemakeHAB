@@ -27,7 +27,10 @@ export const Signup = () => {
 
   if (user) return <Navigate to="/" />;
   return (
-    <div>
+    <div
+      id="signup"
+      className="page"
+    >
       <h1>Sign Up:</h1>
       <form onSubmit={handleSubmit}>
         <label>

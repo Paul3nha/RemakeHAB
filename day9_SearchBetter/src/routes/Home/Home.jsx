@@ -1,4 +1,4 @@
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { useUser } from "../../UserContext.jsx";
 import { Chat } from "./Chat.jsx";
 
@@ -9,7 +9,14 @@ export const Home = () => {
       id="home"
       className="page"
     >
-      <h1>My Chat</h1>
+      <h1>
+        My Chat
+        <nav>
+          <Link to="/upload">Upload</Link>
+          <Link to="/imgur">Imgur</Link>
+          <Link to="/rick">Rick</Link>
+        </nav>
+      </h1>
       {user ? <Chat /> : <Navigate to="/login" />}
     </div>
   );

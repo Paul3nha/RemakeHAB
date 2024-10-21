@@ -69,3 +69,5 @@ export const Imgur = () => {
     </div>
   );
 };
+
+// Este componente permite a los usuarios subir una imagen a Imgur, un popular servicio de alojamiento de imágenes, y mostrar un enlace a la imagen subida.

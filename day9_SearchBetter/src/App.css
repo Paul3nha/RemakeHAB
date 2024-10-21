@@ -25,7 +25,6 @@ body,
 
 #root .page {
   padding: 50px 20px 20px;
-
   text-align: center;
 }
 
@@ -42,16 +41,34 @@ form {
   gap: 10px;
 }
 
+.page h1 {
+  color: #a6cac4;
+}
+
 #chat {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60% 40%;
   max-height: 100vh;
-  flex: 1 1 auto;
   min-height: 0;
 }
 
-#chat #images,
+/* #chat #images,
 #chat #messages {
   flex: 1 1 50%;
+  overflow-y: scroll;
+} */
+
+#chat #images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+#chat #messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   overflow-y: scroll;
 }
 
@@ -62,13 +79,13 @@ form {
 }
 
 #chat .name {
-  color: #88f;
+  color: #f0f600;
 }
 #chat .name.color-1 {
-  color: rgb(22, 187, 44);
+  color: #a6cac4;
 }
 #chat .name.color-2 {
-  color: rgb(204, 42, 14);
+  color: #d499b9;
 }
 #chat .name.color-3 {
   color: rgb(156, 21, 145);
