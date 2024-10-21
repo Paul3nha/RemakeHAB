@@ -29,7 +29,10 @@ export const Login = () => {
     return <Navigate to="/" />;
   }
   return (
-    <div>
+    <div
+      id="login"
+      className="page"
+    >
       <h1>Log In:</h1>
       <form onSubmit={handleSubmit}>
         <label>

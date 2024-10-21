@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
 import { Layout } from "./routes/Layout/Layout.jsx";
 import { Home } from "./routes/Home/Home.jsx";
 import { Login } from "./routes/Login/Login.jsx";
@@ -9,7 +8,8 @@ import { Image } from "./routes/Image/Image.jsx";
 import { Rick } from "./routes/Rick/Rick.jsx";
 import { RickResults } from "./routes/Rick/RickResults.jsx";
 import { RickCharacter } from "./routes/Rick/RickCharacter.jsx";
-import { Upload } from "./Upload/Upload.jsx";
+import "./App.css";
+import { Upload } from "./routes/Upload/Upload.jsx";
 
 function App() {
   return (

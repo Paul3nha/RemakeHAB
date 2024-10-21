@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { useUser } from "../UserContext.jsx";
+import { useUser } from "../../UserContext.jsx";
 import { Navigate, useNavigate } from "react-router-dom";
+import "./Upload.css";
 
 export const Upload = () => {
   const [user] = useUser();
@@ -34,7 +35,10 @@ export const Upload = () => {
   if (!user) return <Navigate to="/" />;
 
   return (
-    <div>
+    <div
+      id="upload"
+      className="page"
+    >
       <h1>Upload an image:</h1>
       <form onSubmit={handleSubmit}>
         <label>

@@ -6,7 +6,7 @@ import { ErrorPage } from "./ErrorPage.jsx";
 export const Layout = () => {
   const [user] = useUser();
   return (
-    <div>
+    <>
       <header>
         <Link to="/">
           <h1>My Chat</h1>
@@ -20,7 +20,7 @@ export const Layout = () => {
       <ErrorBoundary fallback={<ErrorPage />}>
         <Outlet />
       </ErrorBoundary>
-    </div>
+    </>
   );
 };
 

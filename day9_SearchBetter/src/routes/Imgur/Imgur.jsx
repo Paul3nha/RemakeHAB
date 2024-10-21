@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Imgur.css";
 
 export const Imgur = () => {
   const [file, setFile] = useState(null);
@@ -30,7 +31,10 @@ export const Imgur = () => {
   };
 
   return (
-    <div>
+    <div
+      id="upload"
+      className="page"
+    >
       <h1>Image Upload</h1>
       <form onSubmit={handleSubmit}>
         <label>

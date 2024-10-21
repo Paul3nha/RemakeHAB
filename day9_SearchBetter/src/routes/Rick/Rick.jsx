@@ -14,7 +14,10 @@ export const Rick = () => {
   };
 
   return (
-    <div>
+    <div
+      id="rick"
+      className="page"
+    >
       <h1>Search a Character:</h1>
       <form onSubmit={handleSubmit}>
         <label>

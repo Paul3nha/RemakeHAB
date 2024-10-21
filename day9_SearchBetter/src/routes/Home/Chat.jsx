@@ -5,8 +5,8 @@ export const Chat = () => {
   const messages = useMessages(); //fetch para los mensajes
   const images = useImages(); //fetch para las imágenes
   return (
-    <>
-      <div>
+    <div id="chat">
+      <div id="images">
         {images?.map((img) => (
           <Link
             key={img.date}
@@ -25,6 +25,6 @@ export const Chat = () => {
           </Link>
         ))}
       </div>
-    </>
+    </div>
   );
 };
