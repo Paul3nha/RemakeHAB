@@ -11,7 +11,7 @@ export const Home = () => {
     >
       <h1>
         My Chat
-        <nav>
+        <nav id="nav-ppal">
           <Link to="/upload">Upload</Link>
           <Link to="/imgur">Imgur</Link>
           <Link to="/rick">Rick</Link>

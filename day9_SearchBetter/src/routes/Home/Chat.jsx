@@ -16,7 +16,7 @@ export const Chat = () => {
           </Link>
         ))}
       </div>
-      <div id="messages">
+      <div id="msg">
         {messages?.map((msg) => (
           <Link key={msg.date}>
             <span className={`name color-${msg.name.length}`}>{msg.name}</span>{" "}

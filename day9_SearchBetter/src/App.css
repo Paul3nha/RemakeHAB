@@ -18,6 +18,14 @@ body,
   justify-content: space-between;
 }
 
+#nav-ppal {
+  display: flex;
+  font-weight: 200;
+  font-size: 2rem;
+  gap: 15px;
+  justify-content: center;
+}
+
 #root > header h1 {
   margin: 0;
   font-size: 150%;
@@ -46,30 +54,30 @@ form {
 }
 
 #chat {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  max-height: 100vh;
-  min-height: 0;
-}
-
-/* #chat #images,
-#chat #messages {
-  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   overflow-y: scroll;
-} */
+}
 
 #chat #images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow-y: scroll;
+  gap: 10px;
 }
 
-#chat #messages {
+#chat #msg {
+  border-top: 1px solid #888;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   overflow-y: scroll;
+  text-align: left;
+}
+#chat #msg .message {
+  color: black;
 }
 
 #chat img {
@@ -78,28 +86,38 @@ form {
   object-fit: contain;
 }
 
-#chat .name {
-  color: #f0f600;
-}
-#chat .name.color-1 {
-  color: #a6cac4;
-}
-#chat .name.color-2 {
-  color: #d499b9;
-}
-#chat .name.color-3 {
-  color: rgb(156, 21, 145);
-}
-#chat .name.color-4 {
-  color: rgb(214, 211, 48);
-}
-#chat .name.color-5 {
-  color: rgb(68, 200, 209);
-}
-#chat .name.color-6 {
-  color: rgb(129, 129, 155);
+#rick .page ul {
+  overflow-y: scroll;
 }
 
-#chat .message {
-  margin-left: 5px;
+#chat-img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: contain;
 }
+
+#chat .name {
+  color: #88f;
+}
+#chat .name.color-1 {
+  color: #ff9b54;
+}
+#chat .name.color-2 {
+  color: #98c9a3;
+}
+#chat .name.color-3 {
+  color: #d499b9;
+}
+#chat .name.color-4 {
+  color: #a6cac4;
+}
+#chat .name.color-5 {
+  color: #99d98c;
+}
+#chat .name.color-6 {
+  color: #efd3d7;
+}
+
+/* #chat .message {
+  margin-left: 5px;
+} */
