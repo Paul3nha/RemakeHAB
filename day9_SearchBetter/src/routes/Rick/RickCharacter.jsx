@@ -7,7 +7,7 @@ export const RickCharacter = () => {
   if (!char) return "Loading...";
 
   return (
-    <div>
+    <div id="rick-char">
       <h1>{char.name}</h1>
       <img src={char.image} />
       <p>
