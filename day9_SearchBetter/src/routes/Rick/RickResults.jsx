@@ -11,7 +11,7 @@ export const RickResults = () => {
       .then((data) => setResults(data.results));
   }, [query]);
   return (
-    <ul>
+    <ul id="list">
       {results?.map((char) => (
         <Link
           to={"/rick/" + char.id}

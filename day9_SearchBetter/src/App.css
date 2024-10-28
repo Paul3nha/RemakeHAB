@@ -96,6 +96,39 @@ form {
   object-fit: contain;
 }
 
+#list {
+  list-style: none;
+  max-height: 60vh; /* Ajusta esta altura según tus necesidades */
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+}
+
+#list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list li img {
+  max-width: 100%;
+  height: auto;
+}
+
+#list li a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#list li a p {
+  margin-top: 8px; /* Añade espacio entre la imagen y el nombre */
+  color: yellow; /* Color del nombre */
+  font-weight: bold;
+}
+
 #chat .name {
   color: #88f;
 }
