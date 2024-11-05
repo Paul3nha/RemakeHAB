@@ -8,17 +8,31 @@ import { Upload } from "./Routes/Upload/Upload.jsx";
 import PropTypes from "prop-types";
 
 function App() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null); //de verdad hace falta?
 
   return (
     <Routes>
-      <Route path="/" element={<Layout user={user} />}>
-        <Route index element={<Home user={user} />}></Route>
+      <Route
+        path="/"
+        element={<Layout user={user} />}
+      >
+        <Route
+          index
+          element={<Home user={user} />}
+        ></Route>
         <Route
           path="login"
-          element={<Login user={user} setUser={setUser} />}
+          element={
+            <Login
+              user={user}
+              setUser={setUser}
+            />
+          }
         ></Route>
-        <Route path="upload" element={<Upload user={user} />}></Route>
+        <Route
+          path="upload"
+          element={<Upload user={user} />}
+        ></Route>
       </Route>
     </Routes>
   );
